@@ -1,2 +1,2 @@
 install:
-  yes | sudo sdkmanager --licenses
+  sdkmanager --update && yes | sdkmanager --licenses
