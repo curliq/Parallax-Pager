@@ -1,3 +1,2 @@
-dependencies:
-  override:
-    - echo y | android update sdk --no-ui --all
+install:
+  yes | sudo sdkmanager --licenses
