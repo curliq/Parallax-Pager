@@ -71,7 +71,7 @@ In fragmentPage_root_fl is where you'd define the background color for each page
 is what you'd pass when initiating your ParallaxPageTransformer, i.e.:
 ```
 viewPagerVp.adapter = MyAdapter(supportFragmentManager)
-viewPagerVp.setPageTransformer(true, ParallaxPageTransformer(R.id.fragmentPage_content_Fl))
+viewPagerVp.setPageTransformer(true, ParallaxPageTransformer(R.id.fragmentPage_content_ll))
 ```
 
 Full example in `sample/`
