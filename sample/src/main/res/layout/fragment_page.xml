@@ -1,0 +1,49 @@
+<FrameLayout
+    android:id="@+id/fragmentPage_root_fl"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/fragmentPage_content_Fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:padding="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/fragmentPage_image_iv"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:scaleType="centerInside"
+            android:src="@drawable/babies"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fragmentPage_title_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="12dp"
+                android:text="Title text"/>
+
+            <TextView
+                android:id="@+id/fragmentPage_body_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Bod text"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
