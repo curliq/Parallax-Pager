@@ -21,7 +21,7 @@ import android.view.View
  *     xmlns:android="http://schemas.android.com/apk/res/android">
  *
  *     <LinearLayout
- *         android:id="@+id/fragmentPage_content_Fl"
+ *         android:id="@+id/fragmentPage_content_ll"
  *         android:layout_width="match_parent"
  *         android:layout_height="match_parent"
  *         android:weightSum="1"
@@ -44,12 +44,12 @@ import android.view.View
  * </FrameLayout>
  * ```
  *
- * In fragmentPage_root_fl is where you'd define the background color for each page, and R.id.fragmentPage_content_Fl
+ * In fragmentPage_root_fl is where you'd define the background color for each page, and R.id.fragmentPage_content_ll
  * is what you'd pass when initiating your ParallaxPageTransformer, i.e.:
  *
  * ```
  * viewPagerVp.adapter = MyAdapter(supportFragmentManager)
- * viewPagerVp.setPageTransformer(true, ParallaxPageTransformer(R.id.fragmentPage_content_Fl))
+ * viewPagerVp.setPageTransformer(true, ParallaxPageTransformer(R.id.fragmentPage_content_ll))
  * ```
  *
  * See the sample module in https://github.com/curliq/Parallax-Pager for a full example.

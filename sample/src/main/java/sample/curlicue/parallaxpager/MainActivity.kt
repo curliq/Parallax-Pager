@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         viewPagerVp = findViewById(R.id.activityMain_viewpager_vp)
 
         viewPagerVp.adapter = MyAdapter(supportFragmentManager)
-        viewPagerVp.setPageTransformer(true, ParallaxPageTransformer(R.id.fragmentPage_content_Fl))
+        viewPagerVp.setPageTransformer(true, ParallaxPageTransformer(R.id.fragmentPage_content_ll))
     }
 
 }
