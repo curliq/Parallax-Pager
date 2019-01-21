@@ -79,6 +79,7 @@ viewPagerVp.adapter = MyAdapter(supportFragmentManager)
 viewPagerVp.setPageTransformer(true, ParallaxPageTransformer(R.id.fragmentPage_content_ll))
 ```
 
+---
 Full example in `sample/`
 
 
