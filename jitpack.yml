@@ -1,2 +1,0 @@
-install:
-  sdkmanager --update && yes | sdkmanager --licenses
