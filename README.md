@@ -6,9 +6,13 @@ A viewpager with parallax effect.
 
 ### Usage
 
-Since there isn't a lot of code to achieve this you can just create the PageTransformer on your project. It's not on Maven repository yet, I'll update once it is. 
+**1.** Include it in the project
 
-- Create a `PageTransformer` class:
+Add to your `build.gradle`:
+```
+implementation 'curlicue.pager:parallaxpager:1.0'
+```
+If you'd rather not add another dependency and since there isn't a lot of code to achieve this you can just create the PageTransformer on your project: 
 ```
 class ParallaxPageTransformer(private var pageContentContainerId: Int) : ViewPager.PageTransformer {
 
@@ -37,9 +41,10 @@ class ParallaxPageTransformer(private var pageContentContainerId: Int) : ViewPag
 }
 ```
 
-- Initiate it and pass the ID of the viewgroup in your pager fragment that contains all the content but is
+**2.** Initiate it and pass the ID of the viewgroup in your pager fragment that contains all the content but is
 not the root viewgroup.
 A background color must be applied to the root viewgroup and not to the container passed here.
+
 Example:
 
 (The layout file of the fragments you use in the viewpager)
